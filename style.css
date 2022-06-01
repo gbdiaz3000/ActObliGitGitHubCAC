@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  text-decoration: none;
+}
+
+/*STYLE*/
+h1 {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+form {
+  max-width: 300px;
+  border: 3px solid black;
+  padding: 15px;
+margin:auto;}
+
+p {
+  padding-top: 15px;
+}
+
+#centrado {
+  text-align: center;
+  padding-bottom: 15px;
+}

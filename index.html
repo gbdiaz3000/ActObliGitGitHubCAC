@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios2</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/style.css">
+    <script src="/control.js"></script>
+</head>
+
+<body>
+    <main id="flexcontainer"> 
+    <!-- atributo required en el html (constraint), los quite para que se vea el js-->
+    <form action="#" id="myForm"  onsubmit="return validateForm()" method="post">
+        <h1>Ingreso al Sistema</h1>
+        <p><label for="usuario">Usuario:&nbsp;</label><input type="text" placeholder="usuario" id="usuario"
+                name="usuario" value=""></p>
+        <p> <label for="clave">Clave:&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="password" name="clave"
+                placeholder="clave" id="clave" value=""  > </p>
+
+        <p id="centrado"> <button type="submit">Ingresar</button></p>
+    </form>
+</main>
+</body>
+
+</html>
